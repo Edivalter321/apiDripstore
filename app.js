@@ -8,7 +8,7 @@ const PORT = 666;
 
 app.use(express.json());
 app.use('/produtos', produtoRoutes);
-app.use('/usuarios', usuarioRoutes)
+app.use('/usuarios', usuarioRoutes);
 
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
